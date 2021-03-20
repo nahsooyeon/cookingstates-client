@@ -1,0 +1,28 @@
+.course-container {
+  width: 100%;
+  height: 100vh;
+  background-color: #24997f;
+  font-family: "Jua";
+  position: relative;
+}
+
+.course-title {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 3rem;
+  color: #fec0a0;
+}
+
+.course-desc {
+  font-size: 2rem;
+  color: #ffeedf;
+  text-align: center;
+}
+
+.menuList {
+  top: 30%;
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  display: flex;
+}

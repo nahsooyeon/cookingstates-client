@@ -1,0 +1,21 @@
+.menu-card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  flex: 1 1;
+}
+.menuImg {
+  width: 160px;
+  height: 160px;
+}
+
+.menu-name {
+  margin: 3px;
+  font-size: 1em;
+}
+
+.difficulty {
+  font-size: 1.5rem;
+}

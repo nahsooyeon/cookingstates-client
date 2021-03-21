@@ -5,6 +5,7 @@
   align-content: center;
   align-items: center;
   flex: 1 1;
+  background-color: #ffeedf;
 }
 .menuImg {
   width: 160px;
@@ -14,8 +15,29 @@
 .menu-name {
   margin: 3px;
   font-size: 1em;
+  color: #535867;
 }
 
 .difficulty {
   font-size: 1.5rem;
+}
+
+.menuImg {
+  border-radius: 5px;
+}
+
+.difficulty-1 {
+  color: #fbd5d0;
+}
+.difficulty-2 {
+  color: #ea727b;
+}
+.difficulty-3 {
+  color: #bc1c47;
+}
+.difficulty-4 {
+  color: #870e46;
+}
+.difficulty-5 {
+  color: #5a053d;
 }

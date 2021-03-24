@@ -1,6 +1,8 @@
-import React from 'react';
+import React from "react";
 
 function CompleteCourse(props) {
+  console.log(props.UserData);
+
   return (
     <div className="completecourse">
       <div className="completecourse-title">완료한 요리 코스</div>

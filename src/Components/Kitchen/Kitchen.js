@@ -39,7 +39,7 @@ function Kitchen(props) {
           <Profile UserData={UserData} />
           <RecentMenu />
           <MedalList />
-          <CompleteCourse />
+          <CompleteCourse UserData={UserData} />
         </div>
       </div>
     </div>

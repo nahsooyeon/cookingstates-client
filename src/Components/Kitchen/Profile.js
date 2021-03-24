@@ -1,6 +1,7 @@
 import React from "react";
 import Profilelogo from "../../Images/logo-1-yellow.png";
 import { Link, withRouter } from "react-router-dom";
+import API from "../../api";
 
 function Profile(props) {
   const { userName } = props.UserData;

@@ -1,0 +1,54 @@
+.custom-recipe-page {
+  padding: 1rem;
+  margin: 1rem;
+  font-family: "jua";
+  background-color: #ffeedf;
+  border-radius: 24px;
+  overflow: scroll;
+}
+
+h1 {
+  text-align: center;
+  color: #2e2f37;
+}
+
+.input-box > label {
+  font-size: 1.5rem;
+  color: #535867;
+  line-height: inherit;
+  display: flex;
+  justify-content: left;
+}
+
+textarea,
+input[type="text"] {
+  background: #ffffff;
+  /* mono/mono20 */
+
+  border: 1px solid #bfc6dc;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 240px;
+  min-height: 44px;
+}
+
+.custom-recipe-page .input-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-recipe-page button {
+  width: max-content;
+}
+
+.custom-recipe-page textarea {
+  resize: none;
+}
+
+.custom-recipe-page .photoFrame {
+  width: 500px;
+  height: 500px;
+}
+.custom-recipe-page .photoFrame:hover {
+  cursor: pointer;
+}
